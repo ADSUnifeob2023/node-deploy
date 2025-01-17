@@ -26,7 +26,7 @@ app.post("/users", async (request,reply) => {
     }
   });
 
-  return reply.status(204).send();
+  return reply.status(201).send();
 
 });
 
